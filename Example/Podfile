@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'skeleton-table-rail_Example' do
+  pod 'skeleton-table-rail', :path => '../'
+
+  target 'skeleton-table-rail_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

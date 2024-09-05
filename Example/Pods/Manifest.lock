@@ -1,0 +1,16 @@
+PODS:
+  - SkeletonTableRail (0.1.0)
+
+DEPENDENCIES:
+  - SkeletonTableRail (from `../`)
+
+EXTERNAL SOURCES:
+  SkeletonTableRail:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SkeletonTableRail: e0ee6661ddf3e70490e70aa523c634e997ea1e57
+
+PODFILE CHECKSUM: e95bd38c65c95d194c94dee248ac23c89b96a1d3
+
+COCOAPODS: 1.15.0

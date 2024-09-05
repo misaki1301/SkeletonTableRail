@@ -1,0 +1,28 @@
+{
+  "name": "SkeletonTableRail",
+  "version": "0.1.0",
+  "summary": "A short description of SkeletonTableRail.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/misaki1301/SkeletonTableRail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "misaki1301": "paul.frankpc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/misaki1301/skeleton-table-rail.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "SkeletonTableRail/Classes/**/*",
+  "resources": "SkeletonTableRail/Assets/*.{storyboard,xib,xcassets,png,json,plist,txt}",
+  "resource_bundles": {
+    "SkeletonTableRail": [
+      "SkeletonTableRail/Assets/*.{storyboard,xib,xcassets}"
+    ]
+  }
+}

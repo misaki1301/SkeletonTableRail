@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F18DF8856A42EDC562423DE43C2A21 /* Pods-SkeletonTableRail_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D3D88E5EC37F586FB85F11328F4F5B /* Pods-SkeletonTableRail_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F279753701BF829CD2C093F56DD7252 /* SkeletonTableRail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BF7D2E277DC233E4031247DFAEA530 /* SkeletonTableRail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F827A3263D07BE977458AF04EC549F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1C4E594589FB6B5E83F054524D083254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA679BC4E01BAB39EAD1F807D99022 /* Main.storyboard */; };
+		1CC9B18C59D11C60E8E87229A1D6F7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31E6711DDDFE3D238EE515911ABFD36B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EB87EEFB8F6382DFA4F65D3064715F /* CustomTableViewCell.swift */; };
+		34B528EAEDCF33D2D867B5F8182CB3C7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B261B7E5241341C0867D13F51301CC60 /* ReplaceMe.swift */; };
+		6D967D1C3980B449CEE51A54516AB8D0 /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C665581DE2FFA8BC991CCB60E387289 /* SkeletonViewController.swift */; };
+		74267C247DC01FDE59A04DB14D282620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA679BC4E01BAB39EAD1F807D99022 /* Main.storyboard */; };
+		855DAC144E25A946D827B85CD68C3F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8961F070749787C272E1851C92A16F24 /* Pods-SkeletonTableRail_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3C5559163F6AF7F15BDFA72E56D9C /* Pods-SkeletonTableRail_Example-dummy.m */; };
+		ADD9A0EAFBA9CCF64E295085761D7200 /* ModuleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F2C119EA7972616AC89401CD5EC4E /* ModuleCoordinator.swift */; };
+		CC932DE993566534BC35B330EE1C6209 /* SkeletonTableRail-SkeletonTableRail in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */; };
+		D50E5CE6A9FC833C98727ED0D6ADC185 /* Pods-SkeletonTableRail_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CCCE02922CD50D00A327D05463DE32 /* Pods-SkeletonTableRail_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B4E679951F2950BC25ACE6EA1D4BF6 /* SkeletonTableRail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E6B73524AED1D11DBAE8D55EAC190B /* SkeletonTableRail-dummy.m */; };
+		FE20E6FEF240AED260ED968C0EEBBD3F /* Pods-SkeletonTableRail_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 085DA91BAA78A59181B3CCA44D6543E1 /* Pods-SkeletonTableRail_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111AE870BEBBCB28D84C5AA58F8A16F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D803492DC325BF0849FFC1308E6DDA;
+			remoteInfo = "Pods-SkeletonTableRail_Example";
+		};
+		3A55FFD73DEC3AEFE86413DFDBB897CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8AFAD880E56513F772A8F7DF211ED7;
+			remoteInfo = "SkeletonTableRail-SkeletonTableRail";
+		};
+		FBD25BAD114884240448A0566DD76D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD91FEC0B98FF649DF49EB84AFB0DFA;
+			remoteInfo = SkeletonTableRail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038C4A509167FC9D17825D901A71020A /* Pods-SkeletonTableRail_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonTableRail_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		085DA91BAA78A59181B3CCA44D6543E1 /* Pods-SkeletonTableRail_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkeletonTableRail_Tests-dummy.m"; sourceTree = "<group>"; };
+		09CCCE02922CD50D00A327D05463DE32 /* Pods-SkeletonTableRail_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkeletonTableRail_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0ECDD4779A88F56B2A329A6FE090FCFA /* Pods-SkeletonTableRail_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SkeletonTableRail_Tests"; path = Pods_SkeletonTableRail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1363801B82A408210DA8CBBA3E0F0EEF /* SkeletonTableRail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonTableRail-Info.plist"; sourceTree = "<group>"; };
+		1C9C3F2D509030E85599808900154848 /* Pods-SkeletonTableRail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonTableRail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		383D0E28AC2E740B517D235FB3EE8C02 /* SkeletonTableRail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonTableRail-prefix.pch"; sourceTree = "<group>"; };
+		3C665581DE2FFA8BC991CCB60E387289 /* SkeletonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonViewController.swift; path = SkeletonTableRail/Classes/SkeletonViewController.swift; sourceTree = "<group>"; };
+		3ED610472540309786552D5212AD3009 /* Pods-SkeletonTableRail_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonTableRail_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40EB87EEFB8F6382DFA4F65D3064715F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = SkeletonTableRail/Classes/CustomTableViewCell.swift; sourceTree = "<group>"; };
+		41BF7D2E277DC233E4031247DFAEA530 /* SkeletonTableRail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonTableRail-umbrella.h"; sourceTree = "<group>"; };
+		41D3D88E5EC37F586FB85F11328F4F5B /* Pods-SkeletonTableRail_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkeletonTableRail_Example-umbrella.h"; sourceTree = "<group>"; };
+		42A800351FF966243804114C8065E36F /* Pods-SkeletonTableRail_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonTableRail_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47D2649E7CDE5D3FE68E2B3987798A73 /* Pods-SkeletonTableRail_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkeletonTableRail_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47E3A06580B78D75F3A569F978784A9C /* Pods-SkeletonTableRail_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonTableRail_Tests-Info.plist"; sourceTree = "<group>"; };
+		52E41668769B7FF209B588A31105CB2E /* Pods-SkeletonTableRail_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkeletonTableRail_Example-frameworks.sh"; sourceTree = "<group>"; };
+		532C33F4B5EBDFC1F6FDB52E3FFAE574 /* Pods-SkeletonTableRail_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkeletonTableRail_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53A2E368047973A08A01A9A5950E1D40 /* SkeletonTableRail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonTableRail.debug.xcconfig; sourceTree = "<group>"; };
+		7167ACB2FDAED17B222C59035D7BD322 /* Pods-SkeletonTableRail_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkeletonTableRail_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		720819145283036ADDA67080A4C485F4 /* Pods-SkeletonTableRail_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonTableRail_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77F3F633DF2C9D0308F1B8E2E679A7D4 /* SkeletonTableRail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonTableRail.release.xcconfig; sourceTree = "<group>"; };
+		86990CF95A8921FDFECE0BCE0949899E /* Pods-SkeletonTableRail_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkeletonTableRail_Example.modulemap"; sourceTree = "<group>"; };
+		8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkeletonTableRail; path = SkeletonTableRail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF37DE9A81788B3A76891CFD74F4D50 /* Pods-SkeletonTableRail_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkeletonTableRail_Example-Info.plist"; sourceTree = "<group>"; };
+		8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SkeletonTableRail-SkeletonTableRail"; path = SkeletonTableRail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E6B73524AED1D11DBAE8D55EAC190B /* SkeletonTableRail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonTableRail-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B261B7E5241341C0867D13F51301CC60 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SkeletonTableRail/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B627170927B1061F8ACCDE4E29DF3714 /* Pods-SkeletonTableRail_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SkeletonTableRail_Example"; path = Pods_SkeletonTableRail_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EF80CB1A3C4554B46E73501D5FC1D1 /* Pods-SkeletonTableRail_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkeletonTableRail_Tests.modulemap"; sourceTree = "<group>"; };
+		BC5F2C119EA7972616AC89401CD5EC4E /* ModuleCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleCoordinator.swift; path = SkeletonTableRail/Classes/ModuleCoordinator.swift; sourceTree = "<group>"; };
+		DCDBA857AAA42827B3430745ECD2E000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2526CCD03A5C467DE675379C1A2CC96 /* SkeletonTableRail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonTableRail.modulemap; sourceTree = "<group>"; };
+		E932D9AE1C1AC5067F11E3C15270E7DC /* ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist"; sourceTree = "<group>"; };
+		EDBA679BC4E01BAB39EAD1F807D99022 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SkeletonTableRail/Assets/Main.storyboard; sourceTree = "<group>"; };
+		EF1E95CBABC051CD2F0B31FC87C5A0F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FDC3C5559163F6AF7F15BDFA72E56D9C /* Pods-SkeletonTableRail_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkeletonTableRail_Example-dummy.m"; sourceTree = "<group>"; };
+		FF4F997873F55B05E4600803360AFFBE /* SkeletonTableRail.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SkeletonTableRail.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FC701AAD46BB33B17ECF38D051250C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855DAC144E25A946D827B85CD68C3F8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F873F5BDBBA8D74E7ED641CEB70E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F827A3263D07BE977458AF04EC549F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C72E7EE4C604CF3A0C4204820FB83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC9B18C59D11C60E8E87229A1D6F7CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A966D37FCCD093960D639CD51727E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBAB280EE4C6671E2276915B0ABEC3E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				443EAE44F071073C20F8E7E7193B636F /* SkeletonTableRail */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		443EAE44F071073C20F8E7E7193B636F /* SkeletonTableRail */ = {
+			isa = PBXGroup;
+			children = (
+				40EB87EEFB8F6382DFA4F65D3064715F /* CustomTableViewCell.swift */,
+				EDBA679BC4E01BAB39EAD1F807D99022 /* Main.storyboard */,
+				BC5F2C119EA7972616AC89401CD5EC4E /* ModuleCoordinator.swift */,
+				B261B7E5241341C0867D13F51301CC60 /* ReplaceMe.swift */,
+				3C665581DE2FFA8BC991CCB60E387289 /* SkeletonViewController.swift */,
+				783432A3FE7E5B372408BB5D0330DBA3 /* Pod */,
+				6B66BBD0A71A7E6149D8C5504E643F60 /* Support Files */,
+			);
+			name = SkeletonTableRail;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B66BBD0A71A7E6149D8C5504E643F60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E932D9AE1C1AC5067F11E3C15270E7DC /* ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist */,
+				E2526CCD03A5C467DE675379C1A2CC96 /* SkeletonTableRail.modulemap */,
+				92E6B73524AED1D11DBAE8D55EAC190B /* SkeletonTableRail-dummy.m */,
+				1363801B82A408210DA8CBBA3E0F0EEF /* SkeletonTableRail-Info.plist */,
+				383D0E28AC2E740B517D235FB3EE8C02 /* SkeletonTableRail-prefix.pch */,
+				41BF7D2E277DC233E4031247DFAEA530 /* SkeletonTableRail-umbrella.h */,
+				53A2E368047973A08A01A9A5950E1D40 /* SkeletonTableRail.debug.xcconfig */,
+				77F3F633DF2C9D0308F1B8E2E679A7D4 /* SkeletonTableRail.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SkeletonTableRail";
+			sourceTree = "<group>";
+		};
+		783432A3FE7E5B372408BB5D0330DBA3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E95CBABC051CD2F0B31FC87C5A0F5 /* LICENSE */,
+				DCDBA857AAA42827B3430745ECD2E000 /* README.md */,
+				FF4F997873F55B05E4600803360AFFBE /* SkeletonTableRail.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7C15118B4D567D45AC789B490BF732AB /* Pods-SkeletonTableRail_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9EF80CB1A3C4554B46E73501D5FC1D1 /* Pods-SkeletonTableRail_Tests.modulemap */,
+				532C33F4B5EBDFC1F6FDB52E3FFAE574 /* Pods-SkeletonTableRail_Tests-acknowledgements.markdown */,
+				038C4A509167FC9D17825D901A71020A /* Pods-SkeletonTableRail_Tests-acknowledgements.plist */,
+				085DA91BAA78A59181B3CCA44D6543E1 /* Pods-SkeletonTableRail_Tests-dummy.m */,
+				47E3A06580B78D75F3A569F978784A9C /* Pods-SkeletonTableRail_Tests-Info.plist */,
+				09CCCE02922CD50D00A327D05463DE32 /* Pods-SkeletonTableRail_Tests-umbrella.h */,
+				1C9C3F2D509030E85599808900154848 /* Pods-SkeletonTableRail_Tests.debug.xcconfig */,
+				42A800351FF966243804114C8065E36F /* Pods-SkeletonTableRail_Tests.release.xcconfig */,
+			);
+			name = "Pods-SkeletonTableRail_Tests";
+			path = "Target Support Files/Pods-SkeletonTableRail_Tests";
+			sourceTree = "<group>";
+		};
+		7EBD7F44FE343A6D8E1044EC1A61C482 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95846F7096A75D070AC12ED2BB40CA7 /* Pods-SkeletonTableRail_Example */,
+				7C15118B4D567D45AC789B490BF732AB /* Pods-SkeletonTableRail_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE638B1351CD2F67FC0CB1CB851D0E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B627170927B1061F8ACCDE4E29DF3714 /* Pods-SkeletonTableRail_Example */,
+				0ECDD4779A88F56B2A329A6FE090FCFA /* Pods-SkeletonTableRail_Tests */,
+				8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */,
+				8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2DBAB280EE4C6671E2276915B0ABEC3E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AE638B1351CD2F67FC0CB1CB851D0E01 /* Products */,
+				7EBD7F44FE343A6D8E1044EC1A61C482 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D95846F7096A75D070AC12ED2BB40CA7 /* Pods-SkeletonTableRail_Example */ = {
+			isa = PBXGroup;
+			children = (
+				86990CF95A8921FDFECE0BCE0949899E /* Pods-SkeletonTableRail_Example.modulemap */,
+				47D2649E7CDE5D3FE68E2B3987798A73 /* Pods-SkeletonTableRail_Example-acknowledgements.markdown */,
+				720819145283036ADDA67080A4C485F4 /* Pods-SkeletonTableRail_Example-acknowledgements.plist */,
+				FDC3C5559163F6AF7F15BDFA72E56D9C /* Pods-SkeletonTableRail_Example-dummy.m */,
+				52E41668769B7FF209B588A31105CB2E /* Pods-SkeletonTableRail_Example-frameworks.sh */,
+				8CF37DE9A81788B3A76891CFD74F4D50 /* Pods-SkeletonTableRail_Example-Info.plist */,
+				41D3D88E5EC37F586FB85F11328F4F5B /* Pods-SkeletonTableRail_Example-umbrella.h */,
+				7167ACB2FDAED17B222C59035D7BD322 /* Pods-SkeletonTableRail_Example.debug.xcconfig */,
+				3ED610472540309786552D5212AD3009 /* Pods-SkeletonTableRail_Example.release.xcconfig */,
+			);
+			name = "Pods-SkeletonTableRail_Example";
+			path = "Target Support Files/Pods-SkeletonTableRail_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CE297BC8863BF5863A9CC816A0EAE68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F18DF8856A42EDC562423DE43C2A21 /* Pods-SkeletonTableRail_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97028B2D0368A21039B809D427E08D9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F279753701BF829CD2C093F56DD7252 /* SkeletonTableRail-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98BBB1C83A8264BEFF138626DC802CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50E5CE6A9FC833C98727ED0D6ADC185 /* Pods-SkeletonTableRail_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09451EC1723532F088D4E299C16F959A /* Pods-SkeletonTableRail_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D859C33E24622652D3CF869A645B0CBC /* Build configuration list for PBXNativeTarget "Pods-SkeletonTableRail_Tests" */;
+			buildPhases = (
+				D98BBB1C83A8264BEFF138626DC802CC /* Headers */,
+				F1E7FAAD19CA37872CD8AE88262E6234 /* Sources */,
+				C9C72E7EE4C604CF3A0C4204820FB83A /* Frameworks */,
+				F8B69C820C21A41D6578D82557988923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFA2915651A7F2E0BAC044785B6D8A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkeletonTableRail_Tests";
+			productName = Pods_SkeletonTableRail_Tests;
+			productReference = 0ECDD4779A88F56B2A329A6FE090FCFA /* Pods-SkeletonTableRail_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A92054AAE0271E71C46972CAFC9EEF /* Build configuration list for PBXNativeTarget "SkeletonTableRail-SkeletonTableRail" */;
+			buildPhases = (
+				F77A5B9CE6A0529B822B8486D047D7BA /* Sources */,
+				E3A966D37FCCD093960D639CD51727E9 /* Frameworks */,
+				8C9D28FE1F2FA8D457C75C0430AF2570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkeletonTableRail-SkeletonTableRail";
+			productName = SkeletonTableRail;
+			productReference = 8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A6D803492DC325BF0849FFC1308E6DDA /* Pods-SkeletonTableRail_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9AED57197994C1AD9AA3438F500380 /* Build configuration list for PBXNativeTarget "Pods-SkeletonTableRail_Example" */;
+			buildPhases = (
+				8CE297BC8863BF5863A9CC816A0EAE68 /* Headers */,
+				53E9124B15B1528CEF31B62C525ACF70 /* Sources */,
+				8A0F873F5BDBBA8D74E7ED641CEB70E6 /* Frameworks */,
+				F750AF4052C168AD0139F8A5352FD30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BCC041419C71AC5D998D529276E138 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkeletonTableRail_Example";
+			productName = Pods_SkeletonTableRail_Example;
+			productReference = B627170927B1061F8ACCDE4E29DF3714 /* Pods-SkeletonTableRail_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4037805FD8F0A00D82EA55FFB35BDE7E /* Build configuration list for PBXNativeTarget "SkeletonTableRail" */;
+			buildPhases = (
+				97028B2D0368A21039B809D427E08D9B /* Headers */,
+				687332BB4086C0B9291A519A2898A2EA /* Sources */,
+				79FC701AAD46BB33B17ECF38D051250C /* Frameworks */,
+				03936794EEBB707BB0844CA003509D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968B046A92D5F67A25D0ABC7E97D13C2 /* PBXTargetDependency */,
+			);
+			name = SkeletonTableRail;
+			productName = SkeletonTableRail;
+			productReference = 8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE638B1351CD2F67FC0CB1CB851D0E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D803492DC325BF0849FFC1308E6DDA /* Pods-SkeletonTableRail_Example */,
+				09451EC1723532F088D4E299C16F959A /* Pods-SkeletonTableRail_Tests */,
+				EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */,
+				2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03936794EEBB707BB0844CA003509D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E594589FB6B5E83F054524D083254 /* Main.storyboard in Resources */,
+				CC932DE993566534BC35B330EE1C6209 /* SkeletonTableRail-SkeletonTableRail in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9D28FE1F2FA8D457C75C0430AF2570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74267C247DC01FDE59A04DB14D282620 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F750AF4052C168AD0139F8A5352FD30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B69C820C21A41D6578D82557988923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E9124B15B1528CEF31B62C525ACF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8961F070749787C272E1851C92A16F24 /* Pods-SkeletonTableRail_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687332BB4086C0B9291A519A2898A2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E6711DDDFE3D238EE515911ABFD36B /* CustomTableViewCell.swift in Sources */,
+				ADD9A0EAFBA9CCF64E295085761D7200 /* ModuleCoordinator.swift in Sources */,
+				34B528EAEDCF33D2D867B5F8182CB3C7 /* ReplaceMe.swift in Sources */,
+				E4B4E679951F2950BC25ACE6EA1D4BF6 /* SkeletonTableRail-dummy.m in Sources */,
+				6D967D1C3980B449CEE51A54516AB8D0 /* SkeletonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E7FAAD19CA37872CD8AE88262E6234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE20E6FEF240AED260ED968C0EEBBD3F /* Pods-SkeletonTableRail_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A5B9CE6A0529B822B8486D047D7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968B046A92D5F67A25D0ABC7E97D13C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SkeletonTableRail-SkeletonTableRail";
+			target = 2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */;
+			targetProxy = 3A55FFD73DEC3AEFE86413DFDBB897CA /* PBXContainerItemProxy */;
+		};
+		D0BCC041419C71AC5D998D529276E138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkeletonTableRail;
+			target = EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */;
+			targetProxy = FBD25BAD114884240448A0566DD76D80 /* PBXContainerItemProxy */;
+		};
+		DCFA2915651A7F2E0BAC044785B6D8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SkeletonTableRail_Example";
+			target = A6D803492DC325BF0849FFC1308E6DDA /* Pods-SkeletonTableRail_Example */;
+			targetProxy = 111AE870BEBBCB28D84C5AA58F8A16F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		394BC1970313FA69A995EF7598B1016D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A2E368047973A08A01A9A5950E1D40 /* SkeletonTableRail.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SkeletonTableRail";
+				IBSC_MODULE = SkeletonTableRail;
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		40B82663FFD29C69E60D252839C9C4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A2E368047973A08A01A9A5950E1D40 /* SkeletonTableRail.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonTableRail/SkeletonTableRail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonTableRail;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6451B00D5D7BDF075CA8F79CA55DB922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED610472540309786552D5212AD3009 /* Pods-SkeletonTableRail_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonTableRail_Example/Pods-SkeletonTableRail_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonTableRail_Example/Pods-SkeletonTableRail_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77C8929D03AE143C35CE1E382C670B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F3F633DF2C9D0308F1B8E2E679A7D4 /* SkeletonTableRail.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SkeletonTableRail";
+				IBSC_MODULE = SkeletonTableRail;
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD057AFD2791DAF86C9CE115049F4E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F3F633DF2C9D0308F1B8E2E679A7D4 /* SkeletonTableRail.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonTableRail/SkeletonTableRail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonTableRail;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCB1978FA785C8E667048829700C89F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A800351FF966243804114C8065E36F /* Pods-SkeletonTableRail_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonTableRail_Tests/Pods-SkeletonTableRail_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonTableRail_Tests/Pods-SkeletonTableRail_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EB362FC236751152726E30778EFF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7167ACB2FDAED17B222C59035D7BD322 /* Pods-SkeletonTableRail_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonTableRail_Example/Pods-SkeletonTableRail_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonTableRail_Example/Pods-SkeletonTableRail_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCF51121DB5F36906A086473005FF2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9C3F2D509030E85599808900154848 /* Pods-SkeletonTableRail_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkeletonTableRail_Tests/Pods-SkeletonTableRail_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkeletonTableRail_Tests/Pods-SkeletonTableRail_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A92054AAE0271E71C46972CAFC9EEF /* Build configuration list for PBXNativeTarget "SkeletonTableRail-SkeletonTableRail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394BC1970313FA69A995EF7598B1016D /* Debug */,
+				77C8929D03AE143C35CE1E382C670B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4037805FD8F0A00D82EA55FFB35BDE7E /* Build configuration list for PBXNativeTarget "SkeletonTableRail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B82663FFD29C69E60D252839C9C4FE /* Debug */,
+				AD057AFD2791DAF86C9CE115049F4E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D859C33E24622652D3CF869A645B0CBC /* Build configuration list for PBXNativeTarget "Pods-SkeletonTableRail_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF51121DB5F36906A086473005FF2AB /* Debug */,
+				BCB1978FA785C8E667048829700C89F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9AED57197994C1AD9AA3438F500380 /* Build configuration list for PBXNativeTarget "Pods-SkeletonTableRail_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB362FC236751152726E30778EFF7A /* Debug */,
+				6451B00D5D7BDF075CA8F79CA55DB922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

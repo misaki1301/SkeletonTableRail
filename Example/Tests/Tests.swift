@@ -1,5 +1,5 @@
 import XCTest
-import skeleton-table-rail
+import SkeletonTableRail
 
 class Tests: XCTestCase {
     
